@@ -3,7 +3,6 @@ import {
   ArrowUpRight,
   Download,
   GitBranch,
-  Link,
   Mail,
   MapPin,
 } from "lucide-react";
@@ -12,21 +11,21 @@ const projects = [
   {
     title: "FailSpec",
     description:
-      "A local-first tool that turns bug reports into executable Playwright regression tests using Codex, isolated Git worktrees, and controlled test execution.",
+      "A local first tool that turns bug reports into executable Playwright regression tests using Codex, isolated Git worktrees, and controlled test execution.",
     technologies: ["TypeScript", "Node.js", "Playwright", "Codex"],
     github: "https://github.com/OmerNYU/FailSpec",
   },
   {
     title: "Finance Management Tracker",
     description:
-      "A full-stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI-powered financial insights.",
+      "A full stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI-powered financial insights.",
     technologies: ["Next.js", "FastAPI", "PostgreSQL", "Supabase"],
     github: "https://github.com/Sheharyar-Khan14324/FinanceManagementTracker",
   },
   {
     title: "AI Confidence Analyzer",
     description:
-      "A hackathon project that analyzes confidence and communication patterns in user responses.",
+      "A hackathon project that analyzes confidence and communication patterns in real time user bahaviour.",
     technologies: ["MediaPipe", "NLP", "React", "Tailwind CSS", "TensorFlow"],
     github: "https://github.com/OmerNYU/Cursor_Hackathon",
   },
@@ -43,25 +42,25 @@ const experience = [
     "Spark Fellow",
     "Gobi Partners",
     "June 2026 - Present",
-    "Gaining hands-on experience in Southeast Asia, MENA, and Pakistan’s startup ecosystem while working full-time alongside founders from Gobi’s top-performing portfolio companies on entrepreneurship, product development, growth, and technology.",
+    "Gaining hands on experience in Southeast Asia, MENA, and Pakistan’s startup ecosystem while working full time alongside founders from Gobi’s top performing portfolio companies on entrepreneurship, product development, growth, and technology.",
   ],
   [
     "AI/ML Engineering Intern",
     "McLeuker",
     "Jan 2026 - May 2026",
-    "Built AI and data-driven systems, including retrieval pipelines, API integrations, and machine-learning workflows.",
+    "Built AI and data driven systems, including retrieval pipelines, API integrations, and machine learning workflows.",
   ],
   [
     "Machine Learning Researcher",
     "New York University Abu Dhabi",
     "May 2025 – May 2026",
-    "Contributed to machine-learning research through experimentation, data analysis, and model evaluation.",
+    "Contributed to machine learning research through experimentation, data analysis, and model evaluation.",
   ],
   [
       "Data Analyst Intern",
       "Enrichly",
       "Feb 2025 - May 2025",
-      "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
+      "Led a 4 member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
   ],
 ];
 
@@ -112,7 +111,7 @@ export default function Home() {
             </div>
             <div className="mt-10 flex items-center gap-5 text-[#231942]">
               <a aria-label="GitHub" href={github} target="_blank" rel="noreferrer"><GitBranch size={22} /></a>
-              <a aria-label="LinkedIn" href={linkedin} target="_blank" rel="noreferrer"><Link size={22} /></a>
+              <a aria-label="LinkedIn" href={linkedin} target="_blank" rel="noreferrer"><span className="linkedin-logo" aria-hidden="true">in</span></a>
               <a aria-label="Email Sheharyar" href={`mailto:${email}`}><Mail size={22} /></a>
               <span className="h-5 border-l border-slate-300" aria-hidden="true" />
               <span className="inline-flex items-center gap-2 text-sm"><MapPin size={16} aria-hidden="true" /> Abu Dhabi, UAE</span>
@@ -177,7 +176,18 @@ export default function Home() {
           ))}
         </div>
       </section>
-      
+
+      <section id="contact" className="border-t border-[#231942]/15 bg-[#fff8e7]">
+        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-8 px-6 py-20 sm:flex-row sm:items-center">
+          <div>
+            <p className="eyebrow">Let&apos;s connect</p>
+            <h2 className="mt-4 max-w-xl text-4xl font-semibold tracking-[-0.045em] text-[#231942] sm:text-5xl">Feel free to reach out to me!</h2>
+            <p className="mt-5 max-w-xl text-lg leading-8 text-[#231942]">I&apos;m open to software engineering internships, research opportunities, hackathons, and technical collaborations.</p>
+          </div>
+          <a className="button-neutral" href={`mailto:${email}`}><Mail size={18} aria-hidden="true" /> Email</a>
+        </div>
+      </section>
+
       <footer className="border-t border-[#231942]/15 px-6 py-6 text-center text-sm text-[#231942]">© {new Date().getFullYear()} Sheharyar Khan</footer>
     </main>
   );
