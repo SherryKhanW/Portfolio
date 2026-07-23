@@ -40,6 +40,12 @@ const experience = [
     "Developing backend features across a microservices ecosystem with ASP.NET Core, C#, PostgreSQL, gRPC, Docker, Redis, and Elasticsearch.",
   ],
   [
+    "Spark Fellow",
+    "Gobi Partners",
+    "Present",
+    "Gaining hands-on experience in Southeast Asia, MENA, and Pakistan’s startup ecosystem while working full-time alongside founders from Gobi’s top-performing portfolio companies on entrepreneurship, product development, growth, and technology.",
+  ],
+  [
     "AI/ML Engineering Intern",
     "McLeuker",
     "2026",
@@ -51,13 +57,12 @@ const experience = [
     "2025 – 2026",
     "Contributed to machine-learning research through experimentation, data analysis, and model evaluation.",
   ],
-
   [
       "Data Analyst Intern",
       "Enrichly",
       "2025",
       "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
-  ],  
+  ],
 ];
 
 const skills = {

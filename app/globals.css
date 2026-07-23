@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 :root { --background: #fffdfa; --foreground: #231942; }
-
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--background); color: var(--foreground); font-family: "Aptos", "Helvetica Neue", Arial, sans-serif; }
 h1, h2, h3 { font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif; }
@@ -33,6 +32,9 @@ a:focus-visible { outline: 3px solid #7c3aed; outline-offset: 4px; border-radius
 .experience-card { position: relative; isolation: isolate; border: 1px solid #231942; background: #fff8e7; box-shadow: 9px 9px 0 #231942, 18px 18px 0 rgba(35, 25, 66, .12); transform: rotateX(1deg) rotateY(2deg); transition: transform 180ms ease, box-shadow 180ms ease; }
 .experience-card:nth-child(2) { background: #ffd6a5; }
 .experience-card:nth-child(3) { background: #e0c3fc; }
+.experience-card:nth-child(4) { background: #455d7a; }
+.experience-card:nth-child(4) :is(p, h3) { color: white; }
+.experience-card:nth-child(5) { background: #ff9a3c; }
 .experience-card::before { content: ""; position: absolute; inset: 8px -8px -8px 8px; z-index: -1; border: 1px solid rgba(35, 25, 66, .35); }
 .experience-card:hover { box-shadow: 13px 13px 0 #231942, 26px 26px 0 rgba(35, 25, 66, .15); transform: translate(-5px, -5px) rotateX(0) rotateY(0); }
 .toolbox-card { position: relative; isolation: isolate; border: 1px solid #231942; background: #9fd3c7; box-shadow: 10px 10px 0 #231942, 20px 20px 0 rgba(35, 25, 66, .14); transform: rotateX(1deg) rotateY(-1deg); transition: transform 180ms ease, box-shadow 180ms ease; }
