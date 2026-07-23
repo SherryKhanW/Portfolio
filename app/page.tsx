@@ -132,7 +132,6 @@ export default function Home() {
         <div className="experience-grid mt-12 grid gap-9 md:grid-cols-3">
           {experience.map(([role, company, period, description], index) => (
             <article key={role} className="experience-card flex min-h-72 flex-col p-6">
-              <p className="text-xs font-bold tracking-[0.18em] text-[#231942]/70">EXPERIENCE 0{index + 1} · {period}</p>
               <div>
                 <h3 className="mt-5 text-xl font-semibold tracking-tight text-[#231942]">{role}</h3>
                 <p className="mt-1 font-medium text-[#231942]">{company}</p>
