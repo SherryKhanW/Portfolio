@@ -42,25 +42,25 @@ const experience = [
   [
     "Spark Fellow",
     "Gobi Partners",
-    "Present",
+    "June 2026 - Present",
     "Gaining hands-on experience in Southeast Asia, MENA, and Pakistan’s startup ecosystem while working full-time alongside founders from Gobi’s top-performing portfolio companies on entrepreneurship, product development, growth, and technology.",
   ],
   [
     "AI/ML Engineering Intern",
     "McLeuker",
-    "2026",
+    "Jan 2026 - May 2026",
     "Built AI and data-driven systems, including retrieval pipelines, API integrations, and machine-learning workflows.",
   ],
   [
     "Machine Learning Researcher",
     "New York University Abu Dhabi",
-    "2025 – 2026",
+    "May 2025 – May 2026",
     "Contributed to machine-learning research through experimentation, data analysis, and model evaluation.",
   ],
   [
       "Data Analyst Intern",
       "Enrichly",
-      "2025",
+      "Feb 2025 - May 2025",
       "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
   ],
 ];
