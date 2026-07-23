@@ -55,8 +55,9 @@ const experience = [
   [
       "Data Analyst Intern",
       "Enrichly",
-      "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard"
-  ]  
+      "2025",
+      "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
+  ],  
 ];
 
 const skills = {
