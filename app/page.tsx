@@ -46,7 +46,7 @@ const experience = [
     "Built AI and data-driven systems, including retrieval pipelines, API integrations, and machine-learning workflows.",
   ],
   [
-    "Machine Learning Research",
+    "Machine Learning Researcher",
     "New York University Abu Dhabi",
     "2025 – 2026",
     "Contributed to machine-learning research through experimentation, data analysis, and model evaluation.",
