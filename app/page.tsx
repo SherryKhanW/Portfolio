@@ -40,7 +40,7 @@ const experience = [
     "Developing backend features across a microservices ecosystem with ASP.NET Core, C#, PostgreSQL, gRPC, Docker, Redis, and Elasticsearch.",
   ],
   [
-    "AI Intern",
+    "AI/ML Engineering Intern",
     "McLeuker",
     "2026",
     "Built AI and data-driven systems, including retrieval pipelines, API integrations, and machine-learning workflows.",
@@ -51,6 +51,12 @@ const experience = [
     "2025 – 2026",
     "Contributed to machine-learning research through experimentation, data analysis, and model evaluation.",
   ],
+
+  [
+      "Data Analyst Intern",
+      "Enrichly",
+      "Led a 5-member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard"
+  ]  
 ];
 
 const skills = {
