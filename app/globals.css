@@ -33,7 +33,6 @@ a:focus-visible { outline: 3px solid #7c3aed; outline-offset: 4px; border-radius
 .experience-card:nth-child(2) { background: #ffd6a5; }
 .experience-card:nth-child(3) { background: #e0c3fc; }
 .experience-card:nth-child(4) { background: #acc6aa; }
-.experience-card:nth-child(4) :is(p, h3) { color: white; }
 .experience-card:nth-child(5) { background: #ff9a3c; }
 .experience-card::before { content: ""; position: absolute; inset: 8px -8px -8px 8px; z-index: -1; border: 1px solid rgba(35, 25, 66, .35); }
 .experience-card:hover { box-shadow: 13px 13px 0 #231942, 26px 26px 0 rgba(35, 25, 66, .15); transform: translate(-5px, -5px) rotateX(0) rotateY(0); }
