@@ -148,7 +148,6 @@ export default function Home() {
           <div className="project-grid mt-12 grid gap-9 lg:grid-cols-3">
             {projects.map((project, index) => (
               <article key={project.title} className="project-card flex min-h-72 flex-col p-6">
-                <p className="text-xs font-bold tracking-[0.18em] text-[#231942]/70">PROJECT 0{index + 1}</p>
                 <h3 className="text-xl font-semibold tracking-tight">{project.title}</h3>
                 <p className="mt-4 flex-1 leading-7 text-[#231942]">{project.description}</p>
                 <div className="mt-6 flex flex-wrap gap-2">
