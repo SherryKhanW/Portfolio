@@ -18,12 +18,12 @@ const projects = [
   {
     title: "Finance Management Tracker",
     description:
-      "A full stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI-powered financial insights.",
+      "A full stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI powered financial insights.",
     technologies: ["Next.js", "FastAPI", "PostgreSQL", "Supabase"],
-    github: "https://github.com/Sheharyar-Khan14324/FinanceManagementTracker",
+    github: "https://github.com/SherryKhanW/FinanceManagementTracker",
   },
   {
-    title: "AI Confidence Analyzer",
+    title: "Pitch Mirror: AI Confidence Analyzer",
     description:
       "A hackathon project that analyzes confidence and communication patterns in real time user bahaviour.",
     technologies: ["MediaPipe", "NLP", "React", "Tailwind CSS", "TensorFlow"],
@@ -35,13 +35,13 @@ const experience = [
   [
     "Software Engineering Intern",
     "Waada",
-    "June 2026 – Present",
+    "June 2026 – Aug 2026",
     "Developing backend features across a microservices ecosystem with ASP.NET Core, C#, PostgreSQL, gRPC, Docker, Redis, and Elasticsearch.",
   ],
   [
     "Spark Fellow",
     "Gobi Partners",
-    "June 2026 - Present",
+    "June 2026 - Aug 2026",
     "Gaining hands on experience in Southeast Asia, MENA, and Pakistan’s startup ecosystem while working full time alongside founders from Gobi’s top performing portfolio companies on entrepreneurship, product development, growth, and technology.",
   ],
   [
