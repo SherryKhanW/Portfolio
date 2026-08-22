@@ -7,25 +7,34 @@ import {
   MapPin,
 } from "lucide-react";
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  technologies: string[];
+  github: string;
+  website_link?: string;
+};
+
+const projects: Project[] = [
   {
     title: "FailSpec",
     description:
-      "A local first tool that turns bug reports into executable Playwright regression tests using Codex, isolated Git worktrees, and controlled test execution.",
+        "A local first tool that turns bug reports into executable Playwright regression tests using Codex, isolated Git worktrees, and controlled test execution.",
     technologies: ["TypeScript", "Node.js", "Playwright", "Codex"],
     github: "https://github.com/OmerNYU/FailSpec",
   },
   {
-    title: "Finance Management Tracker",
+    title: "Kaisa Paisa? (Finance Tracker)",
     description:
-      "A full stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI powered financial insights.",
+        "A full stack financial tracking app with authentication, expenses, budgeting, forecasting, and AI powered financial insights.",
     technologies: ["Next.js", "FastAPI", "PostgreSQL", "Supabase"],
     github: "https://github.com/SherryKhanW/FinanceManagementTracker",
+    website_link: "https://finance-management-tracker-chi.vercel.app/signup",
   },
   {
     title: "Pitch Mirror: AI Confidence Analyzer",
     description:
-      "A hackathon project that analyzes confidence and communication patterns in real time user bahaviour.",
+        "A hackathon project that analyzes confidence and communication patterns in real-time user behaviour.",
     technologies: ["MediaPipe", "NLP", "React", "Tailwind CSS", "TensorFlow"],
     github: "https://github.com/OmerNYU/Cursor_Hackathon",
   },
@@ -153,9 +162,29 @@ export default function Home() {
                 <div className="mt-6 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => <span key={technology} className="rounded-full border border-[#231942]/20 bg-white/45 px-3 py-1 text-xs font-medium text-[#231942]">{technology}</span>)}
                 </div>
-                <a className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#231942] hover:text-[#231942]" href={project.github} target="_blank" rel="noreferrer">
-                  View on GitHub <ArrowUpRight size={16} aria-hidden="true" />
-                </a>
+                <div className="mt-6 flex flex-wrap items-center gap-5">
+                  <a
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-[#231942] hover:opacity-70"
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                  >
+                    View on GitHub
+                    <ArrowUpRight size={16} aria-hidden="true" />
+                  </a>
+
+                  {project.website_link && (
+                      <a
+                          className="inline-flex items-center gap-2 text-sm font-semibold text-[#231942] hover:opacity-70"
+                          href={project.website_link}
+                          target="_blank"
+                          rel="noreferrer"
+                      >
+                        Live Demo
+                        <ArrowUpRight size={16} aria-hidden="true" />
+                      </a>
+                  )}
+                </div>
               </article>
             ))}
           </div>
