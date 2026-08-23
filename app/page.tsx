@@ -69,7 +69,7 @@ const experience = [
       "Data Analyst Intern",
       "Enrichly",
       "Feb 2025 - May 2025",
-      "Led a 4 member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
+      "Led a 5 member analytics team to deploy machine learning models (regression and clustering) and impact analysis dashboard",
   ],
 ];
 
@@ -80,7 +80,7 @@ const skills = {
   "ML / AI": ["PyTorch", "TensorFlow", "Scikit-learn", "RAG Systems", "NLP"],
 };
 
-const github = "https://github.com/Sheharyar-Khan14324";
+const github = "https://github.com/SherryKhanW";
 const linkedin = "https://www.linkedin.com/in/sheharyarukhan";
 const email = "muk2010@nyu.edu";
 
